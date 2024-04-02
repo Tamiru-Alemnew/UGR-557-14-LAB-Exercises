@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-
+void main() {
+  runApp(MaterialApp(
+    home: const BmiCalculator(),
+  ));
+}
 class BmiCalculator extends StatelessWidget {
   const BmiCalculator({super.key});
 
