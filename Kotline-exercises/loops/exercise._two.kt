@@ -1,5 +1,5 @@
 fun main() {
-    val passwordLength = 8 // Specify the length of the password
+    val passwordLength = 8 
     val password = generateRandomPassword(passwordLength)
     println("Generated Password: $password")
 }
